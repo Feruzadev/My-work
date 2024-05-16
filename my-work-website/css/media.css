@@ -1,0 +1,22 @@
+@media (prefers-color-scheme:dark) {
+    :root{
+        --body-color:#fff;
+        --text-color: #323232;
+        --dot-color:#EBEBEB;
+        --footer-link:#7177F1;
+
+    }
+    .header-logo::after {
+        content: url(../img//MYWORK.svg);
+    }
+    .headline {
+        font-size: calc(28 + 12 * (100vw / 320));
+    }
+}
+
+@media  only screen and (min-width: 992px) {
+    .carousel-image {
+        width: 400px;
+    }
+    
+}
