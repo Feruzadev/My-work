@@ -266,6 +266,65 @@ ul {
 
 /* ANIMATION */
 
+/* ABOUT SECTION */
+.site-main {
+}
+.about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about-work__num {
+    max-width: 190px;
+    width: 100%;
+    padding: 25px;
+    position: absolute;
+    
+}
+
+.num-span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #0FDAC2;
+    border-radius: 50%;
+    position: absolute;
+    top: -14px;
+    right: -9px;
+    font-style: italic;
+    display: grid;
+    place-items: center;
+
+}
+.about-image {
+    display: block;
+    margin: auto;
+}
+.about-content {
+    border-radius: 8px;
+    background: var(--bg-color);
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    padding: 30px;
+}
+.about-title {
+}
+.headline {
+}
+.about-decs {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+.about-btn {
+}
+.all-btn {
+}
+
+
+/*  ABOUT SECTION */
+
 /* CAPABILITIES SECTION */
 
 .capabilities {
